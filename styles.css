@@ -12,7 +12,7 @@ body {
 
 /* Login Page Styling */
 body {
-    background-color: #ECD4FF; 
+    background-color: #e6e6fa; /* Lavender background */
     flex-direction: column; /* Stack the content vertically */
     text-align: center;
 }
