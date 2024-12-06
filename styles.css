@@ -1,7 +1,7 @@
 /* Login page styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1a7a7; /* Darker pastel pink background */
+    background-color: #f1a7a7; /* Slightly darker pastel pink background */
     color: #333; /* Dark text for contrast */
     display: flex;
     justify-content: center; /* Horizontally center the content */
@@ -48,9 +48,10 @@ button:hover {
     background-color: #80b3d1; /* Slightly darker blue on hover */
 }
 
+/* Error message styling */
 #errorMessage {
-    color: red;
+    color: red; /* Red color for error messages */
     font-size: 1rem;
     margin-top: 10px;
+    font-weight: bold;
 }
-
