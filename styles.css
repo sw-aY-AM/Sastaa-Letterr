@@ -21,25 +21,22 @@ body {
     text-align: center; /* Center the text */
 }
 
-h2, h3, h1 {
-    margin: 15px; /* Add margin to space out the text */
-    font-family: 'Arial', sans-serif;
+.line {
+    margin: 10px 0; /* Add margin for spacing between lines */
+    font-size: 1.2rem; /* Slightly smaller font size for paragraph text */
+    line-height: 1.6; /* More line spacing for readability */
 }
 
 /* Optional: Adjust the font sizes and add spacing between elements */
-h2 {
-    font-size: 2rem;
+p {
+    font-family: 'Arial', sans-serif;
+}
+
+p.bold {
     font-weight: bold;
 }
 
-h3 {
-    font-size: 1.2rem;
-    margin-bottom: 30px; /* More space before the main heading */
-}
-
-h1 {
+p.large {
     font-size: 2.5rem;
-    color: #007BFF; /* Blue for the final heading */
-    margin-top: 30px;
 }
 
