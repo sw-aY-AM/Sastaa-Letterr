@@ -1,7 +1,7 @@
 /* Login page styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2d8d8; /* Light pastel pink background */
+    background-color: #f1a7a7; /* Darker pastel pink background */
     color: #333; /* Dark text for contrast */
     display: flex;
     justify-content: center; /* Horizontally center the content */
@@ -53,3 +53,4 @@ button:hover {
     font-size: 1rem;
     margin-top: 10px;
 }
+
