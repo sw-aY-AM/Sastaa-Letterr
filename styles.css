@@ -1,7 +1,7 @@
-/* Main page styles (main.html) */
+/* Login page styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7; /* Light background for the whole page */
+    background-color: #f2d8d8; /* Light pastel pink background */
     color: #333; /* Dark text for contrast */
     display: flex;
     justify-content: center; /* Horizontally center the content */
@@ -11,24 +11,45 @@ body {
     padding: 20px;
 }
 
-.container {
-    max-width: 800px; /* Limit the width of the content */
-    width: 100%; /* Allow it to take the full available width up to max-width */
+h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+form {
+    background-color: white;
     padding: 20px;
-    background-color: white; /* White background for the letter */
-    border-radius: 8px; /* Slight rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    text-align: left; /* Align text to the left */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.line {
-    margin: 20px 0; /* More space between lines */
-    font-size: 1.2rem; /* Slightly smaller font size for paragraph text */
-    line-height: 1.6; /* More line spacing for readability */
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-/* Optional styling for bold and large text */
-.line strong {
-    font-weight: bold;
-    font-size: 2.5rem;
+button {
+    padding: 10px 20px;
+    background-color: #a3c9f1; /* Light pastel blue button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #80b3d1; /* Slightly darker blue on hover */
+}
+
+#errorMessage {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
 }
