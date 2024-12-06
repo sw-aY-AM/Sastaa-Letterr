@@ -8,29 +8,38 @@ body {
     align-items: center; /* Vertically center the content */
     height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
+    padding: 20px;
 }
 
-h2, h3, h1 {
-    margin: 20px; /* Add margin to space out the text */
+.container {
+    max-width: 800px; /* Limit the width of the content */
+    width: 100%; /* Allow it to take the full available width up to max-width */
+    padding: 20px;
+    background-color: white; /* White background for the letter */
+    border-radius: 8px; /* Slight rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     text-align: center; /* Center the text */
 }
 
-/* Optional: Add some padding or spacing between the elements */
+h2, h3, h1 {
+    margin: 15px; /* Add margin to space out the text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Optional: Adjust the font sizes and add spacing between elements */
 h2 {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 1.2rem;
-    margin-bottom: 30px; /* Space before the main heading */
+    margin-bottom: 30px; /* More space before the main heading */
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #007BFF; /* Highlight the final heading with blue */
+    color: #007BFF; /* Blue for the final heading */
+    margin-top: 30px;
 }
 
-/* To ensure good spacing and avoid things looking cramped */
-.container {
-    text-align: center;
-}
