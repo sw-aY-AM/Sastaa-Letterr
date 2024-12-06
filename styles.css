@@ -1,19 +1,25 @@
-/* Login page styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1a7a7; /* Slightly darker pastel pink background */
-    color: #333; /* Dark text for contrast */
+    color: #333;
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     padding: 20px;
 }
 
 h1 {
     font-size: 3rem;
     color: #333;
+}
+
+/* Login Page Styling */
+body {
+    background-color: #f1a7a7; /* Slightly darker pastel pink background */
+    flex-direction: column; /* Stack the content vertically */
+    text-align: center;
 }
 
 form {
@@ -48,10 +54,27 @@ button:hover {
     background-color: #80b3d1; /* Slightly darker blue on hover */
 }
 
-/* Error message styling */
+/* Error Message Styling */
 #errorMessage {
     color: red; /* Red color for error messages */
     font-size: 1rem;
     margin-top: 10px;
     font-weight: bold;
+}
+
+/* Main Page Styling (main.html) */
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.line {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
