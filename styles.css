@@ -71,9 +71,19 @@ button:hover {
     display: none; /* Hidden by default */
 }
 
+/* Main page specific styling */
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #666;
+    font-size: 1.2rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
-    h1 {
+    h1, h2 {
         font-size: 1.5rem; /* Smaller heading on smaller screens */
     }
 
