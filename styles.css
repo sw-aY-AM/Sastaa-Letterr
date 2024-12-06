@@ -1,93 +1,36 @@
-/* Minimal body styles */
+/* Main page styles (main.html) */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7; /* Light, neutral background */
+    background-color: #f7f7f7; /* Light background for the whole page */
     color: #333; /* Dark text for contrast */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full height to center content vertically */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
 }
 
-/* Simple and clean container */
-.container {
-    background-color: #fff; /* White background for the form */
-    padding: 30px;
-    border-radius: 8px; /* Slight rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    width: 90%;
-    max-width: 400px; /* Limiting the form width */
+h2, h3, h1 {
+    margin: 20px; /* Add margin to space out the text */
+    text-align: center; /* Center the text */
 }
 
-/* Heading style */
-h1 {
-    font-size: 2rem;
-    color: #222; /* Darker color for the heading */
-    margin-bottom: 20px;
-}
-
-/* Input field styling */
-input {
-    width: 100%; /* Full width input */
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc; /* Subtle border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 1rem;
-    outline: none;
-}
-
-/* Input field focus effect */
-input:focus {
-    border-color: #007BFF; /* Blue border when focused */
-}
-
-/* Button styling */
-button {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    color: white;
-    background-color: #007BFF; /* Blue button */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-/* Button hover effect */
-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-}
-
-/* Error message styling */
-#errorMessage {
-    color: red;
-    font-size: 0.9rem;
-    margin-top: 10px;
-    display: none; /* Hidden by default */
-}
-
-/* Main page specific styling */
+/* Optional: Add some padding or spacing between the elements */
 h2 {
-    color: #333;
+    font-size: 2rem;
 }
 
 h3 {
-    color: #666;
     font-size: 1.2rem;
+    margin-bottom: 30px; /* Space before the main heading */
 }
 
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    h1, h2 {
-        font-size: 1.5rem; /* Smaller heading on smaller screens */
-    }
+h1 {
+    font-size: 2.5rem;
+    color: #007BFF; /* Highlight the final heading with blue */
+}
 
-    input, button {
-        padding: 10px; /* Slightly smaller padding on smaller screens */
-    }
+/* To ensure good spacing and avoid things looking cramped */
+.container {
+    text-align: center;
 }
