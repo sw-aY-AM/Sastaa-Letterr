@@ -10,16 +10,16 @@ body {
     padding: 20px;
 }
 
-h1 {
-    font-size: 3rem;
-    color: #333;
-}
-
 /* Login Page Styling */
 body {
     background-color: #b0e57c; /* Pastel green background */
     flex-direction: column; /* Stack the content vertically */
     text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
 }
 
 form {
